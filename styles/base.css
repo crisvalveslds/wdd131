@@ -12,23 +12,29 @@ body {
     font-family: "Google Sans", sans-serif;
 }
 
+header, footer {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
 header {
     grid-column: 1 / -1;
     background-color: #1D436C;
     position: sticky;
     top: 0;
-    z-index: 1001;
-}
-
-header, footer, #my-name {
-    font-family: "Oswald", sans-serif;
+    z-index: 1000;
 }
 
 #course-title {
-    display: block;
-    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
     font-size: 1.75rem;
     font-weight: 400;
+}
+
+ul .menu {
+    color: white;
 }
 
 .menu {
@@ -43,8 +49,8 @@ header, footer, #my-name {
 .menu a {
 	padding: 0.75rem;
 	display: block;
-	color: white;
     font-weight: 300;
+    color: white;
 	text-decoration: none;
 	text-align: center;
 }
@@ -132,6 +138,7 @@ h1 {
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
+    margin-top: -1rem;
 }
 
 .flag-section p {
