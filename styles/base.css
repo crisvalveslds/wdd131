@@ -33,10 +33,6 @@ header {
     font-weight: 400;
 }
 
-ul .menu {
-    color: white;
-}
-
 .menu {
 	list-style: none;
     display: flex;
